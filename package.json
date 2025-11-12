@@ -1,0 +1,30 @@
+{
+  "name": "lista-desktop",
+  "main": "index.html",
+  "pear": {
+    "name": "lista-desktop",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": "700",
+      "width": "500"
+    }
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0"
+  },
+  "dependencies": {
+    "autobase": "^7.21.1",
+    "b4a": "^1.7.3",
+    "corestore": "^7.6.0",
+    "hypercore-crypto": "^3.6.1",
+    "hyperswarm": "^4.14.2"
+  }
+}
